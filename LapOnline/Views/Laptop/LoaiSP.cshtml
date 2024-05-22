@@ -1,0 +1,6 @@
+﻿@model IEnumerable<LapOnline.Models.LOAISP>
+
+@foreach(var item in Model)
+            {
+               <li> <a href="@Url.Action("Product","LapOnline", new {id=item.MaLoaiSP})" class="list-group-item">@item.TenLoaiSP</a></li>
+            }    

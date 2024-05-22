@@ -1,0 +1,16 @@
+﻿@using LapOnline.Models
+@{
+    KHACHHANG kh = (KHACHHANG)Session["TenDN"];
+}
+<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+@if (Session["TenDN"] == null)
+{
+    <li><a href="~/User/DangKy"><span class="fas fa-user-edit"></span>Đăng ký</a></li>
+    <li><a href="~/User/DangNhap"><span class="fas fa-user-alt"></span>Đăng nhập</a></li>
+}
+else
+{
+    <li><a href="#"><span class="fa fa-user-or"></span> @kh.HoTenKH</a></li>
+    <li><a href="@Url.Action("DangXuat","User")"><span class="fas fa-power-off"></span> Đăng xuất</a></li>
+}
+

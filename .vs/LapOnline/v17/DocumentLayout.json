@@ -1,0 +1,262 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\LapOnline\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\areas\\admin\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\areas\\admin\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|d:\\laponline\\laponline\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\views\\giohang\\giohang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\views\\giohang\\dathang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\controllers\\laptopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\controllers\\laptopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\areas\\admin\\views\\home\\loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\areas\\admin\\views\\home\\loginadmin.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\views\\giohang\\xacnhandonhang.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\views\\laptop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\views\\laptop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\views\\user\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\views\\user\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\views\\user\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\views\\user\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|D:\\LapOnline\\laponline\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C77CED9C-45AD-43FA-AB51-ACACE90017E7}|LapOnline\\LapOnline.csproj|solutionrelative:laponline\\models\\giohang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LapOnline\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LapOnline\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAMIAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-22T08:22:42.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SanPhamController.cs",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "RelativeDocumentMoniker": "LapOnline\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "RelativeToolTip": "LapOnline\\Areas\\Admin\\Controllers\\SanPhamController.cs",
+              "ViewState": "AQIAADoAAAAAAAAAAAAkwEcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:22:42.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatHang.cshtml",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Views\\GioHang\\DatHang.cshtml",
+              "RelativeDocumentMoniker": "LapOnline\\Views\\GioHang\\DatHang.cshtml",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Views\\GioHang\\DatHang.cshtml",
+              "RelativeToolTip": "LapOnline\\Views\\GioHang\\DatHang.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-22T08:22:42.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Areas\\Admin\\Views\\home\\Index.cshtml",
+              "RelativeDocumentMoniker": "LapOnline\\Areas\\Admin\\Views\\home\\Index.cshtml",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Areas\\Admin\\Views\\home\\Index.cshtml",
+              "RelativeToolTip": "LapOnline\\Areas\\Admin\\Views\\home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-22T08:22:42.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GioHang.cshtml",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Views\\GioHang\\GioHang.cshtml",
+              "RelativeDocumentMoniker": "LapOnline\\Views\\GioHang\\GioHang.cshtml",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Views\\GioHang\\GioHang.cshtml",
+              "RelativeToolTip": "LapOnline\\Views\\GioHang\\GioHang.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAB4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-22T08:22:42.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LaptopController.cs",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Controllers\\LaptopController.cs",
+              "RelativeDocumentMoniker": "LapOnline\\Controllers\\LaptopController.cs",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Controllers\\LaptopController.cs",
+              "RelativeToolTip": "LapOnline\\Controllers\\LaptopController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAwwG0AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:22:42.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "homeController.cs",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Areas\\Admin\\Controllers\\homeController.cs",
+              "RelativeDocumentMoniker": "LapOnline\\Areas\\Admin\\Controllers\\homeController.cs",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Areas\\Admin\\Controllers\\homeController.cs",
+              "RelativeToolTip": "LapOnline\\Areas\\Admin\\Controllers\\homeController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAzwBsAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:22:42.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "LapOnline\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Controllers\\UserController.cs",
+              "RelativeToolTip": "LapOnline\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAAAGIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:22:42.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "LapOnline\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "LapOnline\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAFEAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-22T08:22:42.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginAdmin.cshtml",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Areas\\Admin\\Views\\home\\LoginAdmin.cshtml",
+              "RelativeDocumentMoniker": "LapOnline\\Areas\\Admin\\Views\\home\\LoginAdmin.cshtml",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Areas\\Admin\\Views\\home\\LoginAdmin.cshtml",
+              "RelativeToolTip": "LapOnline\\Areas\\Admin\\Views\\home\\LoginAdmin.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACoAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-22T08:22:42.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "XacNhanDonHang.cshtml",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Views\\GioHang\\XacNhanDonHang.cshtml",
+              "RelativeDocumentMoniker": "LapOnline\\Views\\GioHang\\XacNhanDonHang.cshtml",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Views\\GioHang\\XacNhanDonHang.cshtml",
+              "RelativeToolTip": "LapOnline\\Views\\GioHang\\XacNhanDonHang.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-22T08:22:42.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DangKy.cshtml",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Views\\User\\DangKy.cshtml",
+              "RelativeDocumentMoniker": "LapOnline\\Views\\User\\DangKy.cshtml",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Views\\User\\DangKy.cshtml",
+              "RelativeToolTip": "LapOnline\\Views\\User\\DangKy.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-22T08:22:42.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Views\\Laptop\\Index.cshtml",
+              "RelativeDocumentMoniker": "LapOnline\\Views\\Laptop\\Index.cshtml",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Views\\Laptop\\Index.cshtml",
+              "RelativeToolTip": "LapOnline\\Views\\Laptop\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAAD0AAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-22T08:22:42.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DangNhap.cshtml",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Views\\User\\DangNhap.cshtml",
+              "RelativeDocumentMoniker": "LapOnline\\Views\\User\\DangNhap.cshtml",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Views\\User\\DangNhap.cshtml",
+              "RelativeToolTip": "LapOnline\\Views\\User\\DangNhap.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA0AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002242|",
+              "WhenOpened": "2024-05-22T08:22:42.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GioHang.cs",
+              "DocumentMoniker": "D:\\LapOnline\\LapOnline\\Models\\GioHang.cs",
+              "RelativeDocumentMoniker": "LapOnline\\Models\\GioHang.cs",
+              "ToolTip": "D:\\LapOnline\\LapOnline\\Models\\GioHang.cs",
+              "RelativeToolTip": "LapOnline\\Models\\GioHang.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T08:22:42.584Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

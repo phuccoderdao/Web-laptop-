@@ -1,0 +1,124 @@
+﻿@using LapOnline.Models;
+@model List<GioHang>
+@{
+    ViewBag.Title = "GioHang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2 style="font-weight: bold;text-align: center;">THÔNG TIN GIỎ HÀNG</h2>
+<div class="site-section">
+    <div class="container">
+        <div class="row mb-5">
+            <form class="col-md-12" method="post">
+                <div class="site-blocks-table">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                               
+                                <th class="product-name">Tên sản phẩm</th>
+                                <th class="product-thumbnail">Hình sản phẩm</th>
+                                <th class="product-quantity">Số lượng</th>
+                                <th class="product-price">Giá</th>
+                                <th class="product-total">Thành tiền</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {                             
+                                   <tr>
+
+                                       
+                                       <td>@item.sTenSP</td>
+                                       <td><img src="~/Content/img/@item.sHinhAnh" style="width:100px;"></td>
+                                       @using (Html.BeginForm("CapNhatGioHang", "GioHang", new { iMaSP = @item.iMaSP }))
+
+                                       {
+                                           <td align="center"> <input type="number" min="1" name="SoLuong" value="@item.iSoLuong" style="background-color:white" /></td>
+                                           <td align="center">@string.Format("{0:#,##0,0}", @item.dDonGia)</td>
+                                           <td align="center">@string.Format("{0:#,##0,0}", @item.dThanhTien)</td>
+                                           
+                                           <td>
+                                               @Html.ActionLink("Xóa", "XoaSPKhoiGioHang", new { @iMaSP = item.iMaSP })
+                                           </td>
+                                           <td>
+
+                                               <input type="submit" value="Cập nhật" />
+
+                                           </td>
+                                       }
+                                   </tr>
+
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </form>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="row mb-5">              
+                    <div class="col-md-6 mb-3 mb-md-0">                                            
+                        <tr style="font-weight: bold; color: blue; text-align: right;">
+                            <td colspan="10">
+                                @Html.ActionLink("Xóa Giỏ Hàng", "XoaGioHang")
+                            </td>
+                        </tr> 
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-outline-primary btn-sm btn-block">@Html.ActionLink("Tiếp tục mua","Index","Laptop")</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <label class="text-black h4" for="coupon">Mã giảm giá</label>
+                        
+                    </div>
+                    <div class="col-md-8 mb-3 mb-md-0">
+                        <input type="text" class="form-control py-3" id="coupon" placeholder="Nhập mã...">
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-primary btn-sm px-4">Áp dụng</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 pl-5">
+                <div class="row justify-content-end">
+                    <div class="col-md-7">
+                        <div class="row">
+                            <div class="col-md-12 text-right border-bottom mb-5">
+                                <h3 class="text-black h4 text-uppercase">Tổng giỏ hàng</h3>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <span class="text-black">Tổng số lượng:</span>
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <strong class="text-black"> @string.Format("{0:#,##0,0}", @ViewBag.TongSoLuong)</strong>
+                            </div>
+                        </div>
+                        <div class="row mb-5">
+                            <div class="col-md-6">
+                                <span class="text-black">Tổng tiền</span>
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <strong class="text-black">@string.Format(" {0:#,##0,0}", @ViewBag.TongTien) VNĐ</strong>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                
+                                <button class="btn btn-primary btn-lg btn-block">@Html.ActionLink("Đặt hàng","DatHang","GioHang")</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

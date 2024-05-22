@@ -1,0 +1,89 @@
+﻿@model PagedList.PagedList<SANPHAM>
+@using LapOnline.Models;
+@using PagedList.Mvc;
+
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- SECTION -->
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+
+            <!-- section title -->
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h3 class="title">Sản Phẩm</h3>
+                    <div class="section-nav">
+                        <ul class="section-tab-nav tab-nav">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /section title -->
+            <!-- Products tab & slick -->
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="products-tabs">
+                        <!-- tab -->
+                        <div id="tab1" class="tab-pane active">
+                            <div class="products-slick" data-nav="#slick-nav-1">
+                                <!-- product -->
+                                @foreach (var item in Model)
+                                {
+                                    <div class="product">
+
+                                        <a href="@Url.Action("Details","Laptop",new {id= item.MaSP })">
+                                            <div class="product-img">
+                                                <img src="~/Content/img/@item.HinhAnh">
+                                                <div class="product-label">
+                                                    <span class="new">NEW</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                        <div class="product-body">
+                                            <p class="product-category"></p>
+                                            <h3 class="product-name"><a href="@Url.Action("Details","Laptop",new {id= 1 })">@item.TenSP</a></h3>
+                                            <h4 class="product-price">@item.DonGia VNĐ <del class="product-old-price"></del></h4>
+                                            <div class="product-rating">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star-o"></i>
+                                            </div>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <button class="add-to-cart-btn"><i class="fa fa-shopping-cart"></i><a href="@Url.Action("ThemGioHang", "GioHang", new { ms = item.MaSP, url = Request.Url.ToString() })"> Thêm Giỏ Hàng</a></button>
+                                        </div>
+                                    </div>
+                                }
+                                <!-- /product -->
+                            </div>
+                            <div id="slick-nav-1" class="products-slick-nav"></div>
+                        </div>
+                        <!-- /tab -->
+                    </div>
+                </div>
+            </div>
+            <!-- Products tab & slick -->
+        </div>
+        Trang @(Model.PageCount<Model.PageNumber?0:Model.PageNumber)/@Model.PageCount
+        <div class="MenuTrang">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page }))
+        </div>
+        <style>
+            .MenuTrang {
+                display: inline;
+                text-align: center;
+            }
+        </style>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>
+<!-- /SECTION -->

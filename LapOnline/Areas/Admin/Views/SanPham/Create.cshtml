@@ -1,0 +1,88 @@
+﻿@model LapOnline.Models.SANPHAM
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<div class="content-wrapper">
+    <h2>THÊM LAPTOP</h2>
+
+    @using (Html.BeginForm("Create", "SANPHAM", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-horizontal">
+
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Tên Laptop</label>
+
+                <div class="col-md-10">
+                    <input type="text" size="70" name="sTenSach" value="@ViewBag.TenSP" required />
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Mô tả</label>
+
+                <div class="col-md-10">
+                    <textarea name="sMoTa"> @ViewBag.MoTa</textarea>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Hình ảnh</label>
+
+                <div class="col-md-10">
+                    <input type="file" name="fFileUpload" />
+                    @ViewBag.ThongBao
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-md-2">Ram</label>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.RAM, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.RAM, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2">Vi xử lý</label>
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.ViXuLy, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.ViXuLy, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2">Đơn giá</label>
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.DonGia, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.DonGia, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label col-md-2">Ngày sản xuất</label>
+
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.NgaySX, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.NgaySX, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Thêm mới" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+    <div>
+        @Html.ActionLink("Vê trang quản lý", "Index")
+    </div>
+</div>
+    
